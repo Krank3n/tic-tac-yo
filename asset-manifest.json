@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Krank3n/tic-tac-yo.git/static/css/main.0192d591.chunk.css",
+    "main.js": "/Krank3n/tic-tac-yo.git/static/js/main.af70d23a.chunk.js",
+    "main.js.map": "/Krank3n/tic-tac-yo.git/static/js/main.af70d23a.chunk.js.map",
+    "runtime-main.js": "/Krank3n/tic-tac-yo.git/static/js/runtime-main.180a9869.js",
+    "runtime-main.js.map": "/Krank3n/tic-tac-yo.git/static/js/runtime-main.180a9869.js.map",
+    "static/js/2.960888ee.chunk.js": "/Krank3n/tic-tac-yo.git/static/js/2.960888ee.chunk.js",
+    "static/js/2.960888ee.chunk.js.map": "/Krank3n/tic-tac-yo.git/static/js/2.960888ee.chunk.js.map",
+    "static/js/3.e25763be.chunk.js": "/Krank3n/tic-tac-yo.git/static/js/3.e25763be.chunk.js",
+    "static/js/3.e25763be.chunk.js.map": "/Krank3n/tic-tac-yo.git/static/js/3.e25763be.chunk.js.map",
+    "index.html": "/Krank3n/tic-tac-yo.git/index.html",
+    "static/css/main.0192d591.chunk.css.map": "/Krank3n/tic-tac-yo.git/static/css/main.0192d591.chunk.css.map",
+    "static/js/2.960888ee.chunk.js.LICENSE.txt": "/Krank3n/tic-tac-yo.git/static/js/2.960888ee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.180a9869.js",
+    "static/js/2.960888ee.chunk.js",
+    "static/css/main.0192d591.chunk.css",
+    "static/js/main.af70d23a.chunk.js"
+  ]
+}
