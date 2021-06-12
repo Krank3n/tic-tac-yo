@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -14,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(to right, #3a524f , #282c34);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +30,62 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
+.container {
+  width: 200px;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+button.cells:hover {
+  background: #72b4af;
+  transition-duration: .2s;
+}
+
+button.cells:focus, button.cells:hover {
+  animation: wobble 1s 1;
+  transition-duration: .2s;
+}
+
+.cells {
+  font-family: 'Baloo Thambi 2', cursive;
+  font-size: 32px;
+  flex-basis: calc(100%/3);
+  height: 50px;
+  border: solid 1px;
+  border-radius: .2rem;
+  transition-duration: .2s;
+}
+
+@keyframes wobble {
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-7deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.champion-visible {
+  animation: championAnimate 1s;
+  animation-iteration-count:infinite;
+  transition-duration: .2s;
+}
+
+@keyframes championAnimate {
+  25% {
+    color: deeppink;
+  }
+  75% {
+    color: #e4f872;
   }
 }
